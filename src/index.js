@@ -10,14 +10,14 @@ const COSTOM_DOMAIN = "dockerproxy.tech";
 
 const routes = {
   // production
-  ["docker." + CUSTOM_DOMAIN]: dockerHub,
-  ["quay." + CUSTOM_DOMAIN]: "https://quay.io",
-  ["gcr." + CUSTOM_DOMAIN]: "https://gcr.io",
-  ["k8s-gcr." + CUSTOM_DOMAIN]: "https://k8s.gcr.io",
-  ["k8s." + CUSTOM_DOMAIN]: "https://registry.k8s.io",
-  ["ghcr." + CUSTOM_DOMAIN]: "https://ghcr.io",
-  ["cloudsmith." + CUSTOM_DOMAIN]: "https://docker.cloudsmith.io",
-  ["ecr." + CUSTOM_DOMAIN]: "https://public.ecr.aws",
+  ["docker.dockerproxy.tech"]: dockerHub,
+  ["quay.dockerproxy.tech"]: "https://quay.io",
+  ["gcr.dockerproxy.tech"]: "https://gcr.io",
+  ["k8s-gcr.dockerproxy.tech"]: "https://k8s.gcr.io",
+  ["k8s.dockerproxy.tech"]: "https://registry.k8s.io",
+  ["ghcr.dockerproxy.tech"]: "https://ghcr.io",
+  ["cloudsmith.dockerproxy.tech"]: "https://docker.cloudsmith.io",
+  ["ecr.dockerproxy.tech"]: "https://public.ecr.aws",
 
   // staging
   ["docker-staging." + CUSTOM_DOMAIN]: dockerHub,
