@@ -6,10 +6,10 @@ addEventListener("fetch", (event) => {
 });
 
 const dockerHub = "https://registry-1.docker.io";
-const COSTOM_DOMAIN = "dockerproxy.tech";
 
 const routes = {
   // production
+  ["pull.dockerproxy.tech"]: dockerHub,
   ["docker.dockerproxy.tech"]: dockerHub,
   ["quay.dockerproxy.tech"]: "https://quay.io",
   ["gcr.dockerproxy.tech"]: "https://gcr.io",
